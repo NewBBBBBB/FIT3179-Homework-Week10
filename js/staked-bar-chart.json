@@ -1,0 +1,50 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text":"Breakdown of Top 5 States by GDP Values by Sector (2020-2023)",
+    "fontSize":26
+    },
+  "width": 450,
+  "height": 450,
+  "data": {"url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Final/refs/heads/main/data/gdp_by_each_sector_and_state.csv"},
+
+  "params": [
+    {
+      "name": "year_filter",
+      "value": 2020,
+      "bind": {
+        "input": "select",
+        "options": [2020, 2021, 2022, 2023],
+          "labels": ["2020", "2021", "2022", "2023"],
+        "name": "Select Year: "
+      }
+    }
+  ],
+  "transform": [
+        {"filter": "datum.year == year_filter"},
+        {"filter": {"field": "state", "oneOf": ["Selangor", "Johor", "Sabah", "Sarawak", "W.P. Kuala Lumpur"]}}
+      ],
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "state",
+      "type": "ordinal",
+      "title": "State"
+    },
+    "y": {
+      "aggregate": "sum",
+      "field": "value",
+      "title": "Total Value"
+    },
+    "color": {
+      "field": "sector_name_en",
+      "type": "nominal",
+      "title": "Sector"
+    },
+    "tooltip": [
+      {"field": "state", "type": "nominal", "title": "State"},
+      {"field": "sector_name_en", "type": "nominal", "title": "Sector"},
+      {"field": "value", "type": "quantitative", "title": "Value"}
+      ]
+    }
+  }

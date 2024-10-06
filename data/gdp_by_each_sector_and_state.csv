@@ -1,0 +1,361 @@
+"year","state","sector_name_en","value"
+2020,"Johor","Agriculture",16856.55
+2020,"Johor","Mining and quarrying",657.515
+2020,"Johor","Manufacturing",38650.689
+2020,"Johor","Construction",4175.525
+2020,"Johor","Services",66406.166
+2020,"Johor","Import duties",1327.119
+2020,"Kedah","Agriculture",5517.843
+2020,"Kedah","Mining and quarrying",111.892
+2020,"Kedah","Manufacturing",13618.773
+2020,"Kedah","Construction",1112.621
+2020,"Kedah","Services",25433.746
+2020,"Kedah","Import duties",247.582
+2020,"Kelantan","Agriculture",5817.503
+2020,"Kelantan","Mining and quarrying",341.892
+2020,"Kelantan","Manufacturing",1234.011
+2020,"Kelantan","Construction",396.456
+2020,"Kelantan","Services",17374.192
+2020,"Kelantan","Import duties",23.653
+2020,"Melaka","Agriculture",4583.532
+2020,"Melaka","Mining and quarrying",59.283
+2020,"Melaka","Manufacturing",15322.431
+2020,"Melaka","Construction",991.943
+2020,"Melaka","Services",19969.693
+2020,"Melaka","Import duties",103.567
+2020,"Negeri Sembilan","Agriculture",3318.702
+2020,"Negeri Sembilan","Mining and quarrying",199.668
+2020,"Negeri Sembilan","Manufacturing",16760.978
+2020,"Negeri Sembilan","Construction",1370.22
+2020,"Negeri Sembilan","Services",23822.068
+2020,"Negeri Sembilan","Import duties",864.466
+2020,"Pahang","Agriculture",13001.464
+2020,"Pahang","Mining and quarrying",613.576
+2020,"Pahang","Manufacturing",12246.086
+2020,"Pahang","Construction",1351.98
+2020,"Pahang","Services",27597.184
+2020,"Pahang","Import duties",75.173
+2020,"Perak","Agriculture",11430.364
+2020,"Perak","Mining and quarrying",432.138
+2020,"Perak","Manufacturing",14155.88
+2020,"Perak","Construction",2057.417
+2020,"Perak","Services",46136.819
+2020,"Perak","Import duties",51.37
+2020,"Perlis","Agriculture",1087.742
+2020,"Perlis","Mining and quarrying",30.067
+2020,"Perlis","Manufacturing",443.996
+2020,"Perlis","Construction",150.603
+2020,"Perlis","Services",4032.247
+2020,"Perlis","Import duties",40.41
+2020,"Pulau Pinang","Agriculture",2048.85
+2020,"Pulau Pinang","Mining and quarrying",139.141
+2020,"Pulau Pinang","Manufacturing",41626.57
+2020,"Pulau Pinang","Construction",2234.118
+2020,"Pulau Pinang","Services",45978.568
+2020,"Pulau Pinang","Import duties",663.435
+2020,"Sabah","Agriculture",12798.329
+2020,"Sabah","Mining and quarrying",19935.969
+2020,"Sabah","Manufacturing",6042.344
+2020,"Sabah","Construction",2196.533
+2020,"Sabah","Services",36597.415
+2020,"Sabah","Import duties",269.462
+2020,"Sarawak","Agriculture",14907.463
+2020,"Sarawak","Mining and quarrying",28591.412
+2020,"Sarawak","Manufacturing",33427.691
+2020,"Sarawak","Construction",4081.745
+2020,"Sarawak","Services",46160.302
+2020,"Sarawak","Import duties",387.676
+2020,"Selangor","Agriculture",4721.221
+2020,"Selangor","Mining and quarrying",755.167
+2020,"Selangor","Manufacturing",95113.627
+2020,"Selangor","Construction",18664.936
+2020,"Selangor","Services",200127.437
+2020,"Selangor","Import duties",7422.912
+2020,"Terengganu","Agriculture",2902.817
+2020,"Terengganu","Mining and quarrying",175.891
+2020,"Terengganu","Manufacturing",11861.58
+2020,"Terengganu","Construction",1080.445
+2020,"Terengganu","Services",17942.611
+2020,"Terengganu","Import duties",30.687
+2020,"W.P. Kuala Lumpur","Agriculture",0
+2020,"W.P. Kuala Lumpur","Mining and quarrying",138.272
+2020,"W.P. Kuala Lumpur","Manufacturing",5733.447
+2020,"W.P. Kuala Lumpur","Construction",13589.06
+2020,"W.P. Kuala Lumpur","Services",194204.167
+2020,"W.P. Kuala Lumpur","Import duties",3780.403
+2020,"W.P. Labuan","Agriculture",115.129
+2020,"W.P. Labuan","Mining and quarrying",0
+2020,"W.P. Labuan","Manufacturing",1367.505
+2020,"W.P. Labuan","Construction",162.59
+2020,"W.P. Labuan","Services",5910.296
+2020,"W.P. Labuan","Import duties",57.841
+2021,"Johor","Agriculture",16882.569
+2021,"Johor","Mining and quarrying",586.874
+2021,"Johor","Manufacturing",40726.902
+2021,"Johor","Construction",3417.687
+2021,"Johor","Services",68360.034
+2021,"Johor","Import duties",1268.915
+2021,"Kedah","Agriculture",5668.731
+2021,"Kedah","Mining and quarrying",103.154
+2021,"Kedah","Manufacturing",14465.165
+2021,"Kedah","Construction",1018.949
+2021,"Kedah","Services",25925.347
+2021,"Kedah","Import duties",323.722
+2021,"Kelantan","Agriculture",5869.39
+2021,"Kelantan","Mining and quarrying",352.629
+2021,"Kelantan","Manufacturing",1259.726
+2021,"Kelantan","Construction",400.86
+2021,"Kelantan","Services",17866.211
+2021,"Kelantan","Import duties",33.078
+2021,"Melaka","Agriculture",4517.274
+2021,"Melaka","Mining and quarrying",55.351
+2021,"Melaka","Manufacturing",15835.427
+2021,"Melaka","Construction",896.499
+2021,"Melaka","Services",20508.12
+2021,"Melaka","Import duties",58.961
+2021,"Negeri Sembilan","Agriculture",3303.506
+2021,"Negeri Sembilan","Mining and quarrying",186.343
+2021,"Negeri Sembilan","Manufacturing",17962.246
+2021,"Negeri Sembilan","Construction",1365.234
+2021,"Negeri Sembilan","Services",24359.904
+2021,"Negeri Sembilan","Import duties",609.859
+2021,"Pahang","Agriculture",13005.688
+2021,"Pahang","Mining and quarrying",507.224
+2021,"Pahang","Manufacturing",12990.245
+2021,"Pahang","Construction",1600.807
+2021,"Pahang","Services",27285.399
+2021,"Pahang","Import duties",50.74
+2021,"Perak","Agriculture",11768.73
+2021,"Perak","Mining and quarrying",401.822
+2021,"Perak","Manufacturing",15453.346
+2021,"Perak","Construction",1919.248
+2021,"Perak","Services",47322.899
+2021,"Perak","Import duties",34.953
+2021,"Perlis","Agriculture",1023.525
+2021,"Perlis","Mining and quarrying",28.553
+2021,"Perlis","Manufacturing",467.888
+2021,"Perlis","Construction",150.799
+2021,"Perlis","Services",4119.515
+2021,"Perlis","Import duties",76.371
+2021,"Pulau Pinang","Agriculture",1999.831
+2021,"Pulau Pinang","Mining and quarrying",129.979
+2021,"Pulau Pinang","Manufacturing",46768.162
+2021,"Pulau Pinang","Construction",2521.324
+2021,"Pulau Pinang","Services",47079.905
+2021,"Pulau Pinang","Import duties",624.743
+2021,"Sabah","Agriculture",12517.988
+2021,"Sabah","Mining and quarrying",20574.499
+2021,"Sabah","Manufacturing",5931.064
+2021,"Sabah","Construction",2368.222
+2021,"Sabah","Services",37368.739
+2021,"Sabah","Import duties",239.556
+2021,"Sarawak","Agriculture",14465.913
+2021,"Sarawak","Mining and quarrying",27875.384
+2021,"Sarawak","Manufacturing",37092.353
+2021,"Sarawak","Construction",4490.408
+2021,"Sarawak","Services",47314.523
+2021,"Sarawak","Import duties",355.297
+2021,"Selangor","Agriculture",4950.204
+2021,"Selangor","Mining and quarrying",707.8
+2021,"Selangor","Manufacturing",107456.098
+2021,"Selangor","Construction",17473.8
+2021,"Selangor","Services",205429.698
+2021,"Selangor","Import duties",8085.14
+2021,"Terengganu","Agriculture",2751.573
+2021,"Terengganu","Mining and quarrying",177.668
+2021,"Terengganu","Manufacturing",12984.114
+2021,"Terengganu","Construction",1105.7
+2021,"Terengganu","Services",18200.843
+2021,"Terengganu","Import duties",15.999
+2021,"W.P. Kuala Lumpur","Agriculture",0
+2021,"W.P. Kuala Lumpur","Mining and quarrying",134.235
+2021,"W.P. Kuala Lumpur","Manufacturing",5977.909
+2021,"W.P. Kuala Lumpur","Construction",11966.1
+2021,"W.P. Kuala Lumpur","Services",197978.504
+2021,"W.P. Kuala Lumpur","Import duties",3825.288
+2021,"W.P. Labuan","Agriculture",116.628
+2021,"W.P. Labuan","Mining and quarrying",0
+2021,"W.P. Labuan","Manufacturing",1353.715
+2021,"W.P. Labuan","Construction",143.3
+2021,"W.P. Labuan","Services",5996.655
+2021,"W.P. Labuan","Import duties",39.372
+2022,"Johor","Agriculture",17402.664
+2022,"Johor","Mining and quarrying",648.636
+2022,"Johor","Manufacturing",42948.216
+2022,"Johor","Construction",3962.15
+2022,"Johor","Services",75875.363
+2022,"Johor","Import duties",1532.664
+2022,"Kedah","Agriculture",5687.965
+2022,"Kedah","Mining and quarrying",114.256
+2022,"Kedah","Manufacturing",15633.475
+2022,"Kedah","Construction",1205.493
+2022,"Kedah","Services",27992.38
+2022,"Kedah","Import duties",348.554
+2022,"Kelantan","Agriculture",5640.233
+2022,"Kelantan","Mining and quarrying",392.951
+2022,"Kelantan","Manufacturing",1298.632
+2022,"Kelantan","Construction",479.777
+2022,"Kelantan","Services",19077.743
+2022,"Kelantan","Import duties",45.229
+2022,"Melaka","Agriculture",4544.829
+2022,"Melaka","Mining and quarrying",61.137
+2022,"Melaka","Manufacturing",16904.765
+2022,"Melaka","Construction",942.579
+2022,"Melaka","Services",23058.978
+2022,"Melaka","Import duties",66.747
+2022,"Negeri Sembilan","Agriculture",3321.034
+2022,"Negeri Sembilan","Mining and quarrying",206.612
+2022,"Negeri Sembilan","Manufacturing",19394.015
+2022,"Negeri Sembilan","Construction",1444.138
+2022,"Negeri Sembilan","Services",26255.402
+2022,"Negeri Sembilan","Import duties",318.062
+2022,"Pahang","Agriculture",13887.161
+2022,"Pahang","Mining and quarrying",571.949
+2022,"Pahang","Manufacturing",13745.04
+2022,"Pahang","Construction",1584.062
+2022,"Pahang","Services",31906.849
+2022,"Pahang","Import duties",51.142
+2022,"Perak","Agriculture",11466.447
+2022,"Perak","Mining and quarrying",449.423
+2022,"Perak","Manufacturing",15606.298
+2022,"Perak","Construction",2036.458
+2022,"Perak","Services",50816.522
+2022,"Perak","Import duties",51.737
+2022,"Perlis","Agriculture",1058.373
+2022,"Perlis","Mining and quarrying",31.391
+2022,"Perlis","Manufacturing",489.059
+2022,"Perlis","Construction",152.461
+2022,"Perlis","Services",4350.08
+2022,"Perlis","Import duties",128.592
+2022,"Pulau Pinang","Agriculture",2094.675
+2022,"Pulau Pinang","Mining and quarrying",143.903
+2022,"Pulau Pinang","Manufacturing",54187.835
+2022,"Pulau Pinang","Construction",2721.224
+2022,"Pulau Pinang","Services",52490.218
+2022,"Pulau Pinang","Import duties",643.197
+2022,"Sabah","Agriculture",12543.031
+2022,"Sabah","Mining and quarrying",20454.838
+2022,"Sabah","Manufacturing",5780.032
+2022,"Sabah","Construction",2514.425
+2022,"Sabah","Services",40544.43
+2022,"Sabah","Import duties",269.672
+2022,"Sarawak","Agriculture",14727.061
+2022,"Sarawak","Mining and quarrying",29911.17
+2022,"Sarawak","Manufacturing",39229.048
+2022,"Sarawak","Construction",4671.277
+2022,"Sarawak","Services",51732.671
+2022,"Sarawak","Import duties",427.604
+2022,"Selangor","Agriculture",4925.552
+2022,"Selangor","Mining and quarrying",796.664
+2022,"Selangor","Manufacturing",117172.055
+2022,"Selangor","Construction",18208.686
+2022,"Selangor","Services",233372.832
+2022,"Selangor","Import duties",10683.01
+2022,"Terengganu","Agriculture",2659.501
+2022,"Terengganu","Mining and quarrying",197.155
+2022,"Terengganu","Manufacturing",14061.235
+2022,"Terengganu","Construction",1143.569
+2022,"Terengganu","Services",19284.074
+2022,"Terengganu","Import duties",8.308
+2022,"W.P. Kuala Lumpur","Agriculture",0
+2022,"W.P. Kuala Lumpur","Mining and quarrying",147.775
+2022,"W.P. Kuala Lumpur","Manufacturing",6297.152
+2022,"W.P. Kuala Lumpur","Construction",12212.196
+2022,"W.P. Kuala Lumpur","Services",219683.46
+2022,"W.P. Kuala Lumpur","Import duties",2175.199
+2022,"W.P. Labuan","Agriculture",122.137
+2022,"W.P. Labuan","Mining and quarrying",0
+2022,"W.P. Labuan","Manufacturing",1376.733
+2022,"W.P. Labuan","Construction",147.96
+2022,"W.P. Labuan","Services",6281.577
+2022,"W.P. Labuan","Import duties",34.104
+2023,"Johor","Agriculture",17205.216
+2023,"Johor","Mining and quarrying",691.086
+2023,"Johor","Manufacturing",44165.268
+2023,"Johor","Construction",4484.893
+2023,"Johor","Services",79960.534
+2023,"Johor","Import duties",1697.769
+2023,"Kedah","Agriculture",5527.501
+2023,"Kedah","Mining and quarrying",121.952
+2023,"Kedah","Manufacturing",15137.514
+2023,"Kedah","Construction",1576.896
+2023,"Kedah","Services",29115.645
+2023,"Kedah","Import duties",302.547
+2023,"Kelantan","Agriculture",5609.939
+2023,"Kelantan","Mining and quarrying",424.836
+2023,"Kelantan","Manufacturing",1265.084
+2023,"Kelantan","Construction",511.92
+2023,"Kelantan","Services",19799.217
+2023,"Kelantan","Import duties",36.957
+2023,"Melaka","Agriculture",4838.454
+2023,"Melaka","Mining and quarrying",64.889
+2023,"Melaka","Manufacturing",16951.271
+2023,"Melaka","Construction",996.003
+2023,"Melaka","Services",24017.86
+2023,"Melaka","Import duties",64.971
+2023,"Negeri Sembilan","Agriculture",3156.776
+2023,"Negeri Sembilan","Mining and quarrying",224.402
+2023,"Negeri Sembilan","Manufacturing",19627.523
+2023,"Negeri Sembilan","Construction",1322.75
+2023,"Negeri Sembilan","Services",27435.109
+2023,"Negeri Sembilan","Import duties",97.482
+2023,"Pahang","Agriculture",14232.855
+2023,"Pahang","Mining and quarrying",626.959
+2023,"Pahang","Manufacturing",14038.951
+2023,"Pahang","Construction",2171.957
+2023,"Pahang","Services",33833.324
+2023,"Pahang","Import duties",37.671
+2023,"Perak","Agriculture",11682.179
+2023,"Perak","Mining and quarrying",486.814
+2023,"Perak","Manufacturing",15951.746
+2023,"Perak","Construction",2032.742
+2023,"Perak","Services",52345.472
+2023,"Perak","Import duties",59.791
+2023,"Perlis","Agriculture",1101.382
+2023,"Perlis","Mining and quarrying",33.013
+2023,"Perlis","Manufacturing",484.303
+2023,"Perlis","Construction",158.567
+2023,"Perlis","Services",4451.576
+2023,"Perlis","Import duties",114.338
+2023,"Pulau Pinang","Agriculture",2230.697
+2023,"Pulau Pinang","Mining and quarrying",153.618
+2023,"Pulau Pinang","Manufacturing",53893.41
+2023,"Pulau Pinang","Construction",3363.574
+2023,"Pulau Pinang","Services",55657.576
+2023,"Pulau Pinang","Import duties",658.123
+2023,"Sabah","Agriculture",12649.256
+2023,"Sabah","Mining and quarrying",19389.615
+2023,"Sabah","Manufacturing",6032.934
+2023,"Sabah","Construction",2486.354
+2023,"Sabah","Services",42375.969
+2023,"Sabah","Import duties",262.788
+2023,"Sarawak","Agriculture",15028.88
+2023,"Sarawak","Mining and quarrying",29605.348
+2023,"Sarawak","Manufacturing",37695.875
+2023,"Sarawak","Construction",5059.113
+2023,"Sarawak","Services",54543.192
+2023,"Sarawak","Import duties",419.421
+2023,"Selangor","Agriculture",4564.477
+2023,"Selangor","Mining and quarrying",827.027
+2023,"Selangor","Manufacturing",119571.527
+2023,"Selangor","Construction",20060.19
+2023,"Selangor","Services",247683.629
+2023,"Selangor","Import duties",13364.603
+2023,"Terengganu","Agriculture",2857.034
+2023,"Terengganu","Mining and quarrying",207.689
+2023,"Terengganu","Manufacturing",14083.591
+2023,"Terengganu","Construction",1161.791
+2023,"Terengganu","Services",19876.587
+2023,"Terengganu","Import duties",14.723
+2023,"W.P. Kuala Lumpur","Agriculture",0
+2023,"W.P. Kuala Lumpur","Mining and quarrying",152.658
+2023,"W.P. Kuala Lumpur","Manufacturing",6412.314
+2023,"W.P. Kuala Lumpur","Construction",11121.63
+2023,"W.P. Kuala Lumpur","Services",230391.822
+2023,"W.P. Kuala Lumpur","Import duties",1221.887
+2023,"W.P. Labuan","Agriculture",126.045
+2023,"W.P. Labuan","Mining and quarrying",0
+2023,"W.P. Labuan","Manufacturing",1382.377
+2023,"W.P. Labuan","Construction",150.551
+2023,"W.P. Labuan","Services",6416.974
+2023,"W.P. Labuan","Import duties",39.252

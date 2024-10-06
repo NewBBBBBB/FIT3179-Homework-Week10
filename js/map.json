@@ -1,0 +1,193 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text":"GDP Per Capita for each state in Malaysia (2020-2023)",
+    "fontSize":26},
+  "width": 800,
+  "height": 450,
+  "params": [
+    {
+      "name": "Year_selection",
+      "value": 2020,
+      "bind": {
+        "input": "range",
+        "min": 2020,
+        "max": 2023,
+        "step": 1,
+        "name": "Year: "
+      }
+    }
+  ],
+  "projection": {
+    "type": "equirectangular"
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Final/refs/heads/main/data/malaysia.json",
+        "format": {"type": "topojson", "feature": "ne_50m_ocean"}
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#ace5ee",
+        "stroke": "white",
+        "strokeWidth": 1
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Final/refs/heads/main/data/malaysia.json",
+        "format": {"type": "topojson", "feature": "ne_50m_graticules_5"}
+      },
+      "mark": {
+        "type": "geoshape",
+        "stroke": "#888",
+        "strokeWidth": 0.5
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Final/refs/heads/main/data/malaysia.json",
+        "format": {"type": "topojson", "feature": "ne_50m_admin_0_countries"}
+      },
+      "transform": [
+        {
+          "calculate": "'Data is not available in ' + datum.properties.NAME",
+          "as": "note"
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "fill": "#ddd",
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {"tooltip": {"field": "note"}}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Final/refs/heads/main/data/malaysia.json",
+        "format": {"type": "topojson", "feature": "geoBoundaries-MYS-ADM1_simplified"}
+      },
+      "transform": [
+        {
+          "calculate": "'Data is not available in ' + datum.properties.shapeName",
+          "as": "note"
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "fill": "#ddd",
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {"tooltip": {"field": "note"}}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Final/refs/heads/main/data/gdp_per_capita_malaysia_states.csv"
+      },
+      "transform": [
+        {
+          "lookup": "state",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Final/refs/heads/main/data/malaysia.json",
+              "format": {"type": "topojson", "feature": "geoBoundaries-MYS-ADM1_simplified"}
+            },
+            "key": "properties.shapeName"
+          },
+          "as": "geo"
+        },
+        {"filter": "datum.year == Year_selection"}
+      ],
+      "mark": {"type": "geoshape", "stroke": "#fff", "strokeWidth": 0.5},
+      "encoding": {
+        "shape": {"field": "geo", "type": "geojson"},
+        "color": {
+          "field": "value",
+          "type": "quantitative",
+          "legend": {"format": ".2s"}
+        },
+        "tooltip": [
+          {"field": "state", "type": "nominal", "title": "State"},
+          {
+            "field": "value",
+            "type": "quantitative",
+            "title": "GDP Per Capita",
+            "format": ","
+          },
+          {"field": "year", "type": "quantitative", "title": "Year"}
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {"latitude": 3.15, "longitude": 101.69},
+          {"latitude": 3.0526589, "longitude": 102.522205}
+        ]
+      },
+      "mark": {"type": "line", "strokeWidth": 2, "color": "black"},
+      "encoding": {
+        "longitude": {"field": "longitude", "type": "quantitative"},
+        "latitude": {"field": "latitude", "type": "quantitative"}
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {"latitude": 5.12895, "longitude": 102.09},
+          {"latitude": 5.0, "longitude": 103}
+        ]
+      },
+      "mark": {"type": "line", "strokeWidth": 2, "color": "black"},
+      "encoding": {
+        "longitude": {"field": "longitude", "type": "quantitative"},
+        "latitude": {"field": "latitude", "type": "quantitative"}
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Final/refs/heads/main/data/annotations.csv"
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "text",
+            "dx": 120,
+            "dy": 0,
+            "fontSize": 12,
+            "color": "black"
+          },
+          "encoding": {
+            "longitude": {"field": "Longitude", "type": "quantitative"},
+            "latitude": {"field": "Latitude", "type": "quantitative"},
+            "text": {
+              "field": "text_annotation",
+              "type": "nominal"
+            }
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "dx": 120,
+            "dy": 15,
+            "fontSize": 12,
+            "color": "black"
+          },
+          "encoding": {
+            "longitude": {"field": "Longitude", "type": "quantitative"},
+            "latitude": {"field": "Latitude", "type": "quantitative"},
+            "text": {
+              "field": "text_annotation2",
+              "type": "nominal"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "config": {}
+}

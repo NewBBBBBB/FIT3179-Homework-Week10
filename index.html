@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poverty Rate in Malaysia</title>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <div id="content">
+        <h1>Homework Week 10</h1>
+        <div id="map"></div>
+        <div id="map2"></div>
+    </div>
+
+    <script>
+        var vg1 = "js/map.json"; 
+        vegaEmbed("#map", vg1).then(function(result) {
+        }).catch(console.error);
+    </script>
+
+    <script>
+        var vg2 = "js/staked-bar-chart.json";
+        vegaEmbed("#map2", vg2).then(function(result) {
+        }).catch(console.error);
+    </script>
+</body>
+</html>
