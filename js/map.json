@@ -24,7 +24,7 @@
   "layer": [
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Final/refs/heads/main/data/malaysia.json",
+        "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Homework-Week10/refs/heads/main/data/malaysia.json",
         "format": {"type": "topojson", "feature": "ne_50m_ocean"}
       },
       "mark": {
@@ -36,7 +36,7 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Final/refs/heads/main/data/malaysia.json",
+        "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Homework-Week10/refs/heads/main/data/malaysia.json",
         "format": {"type": "topojson", "feature": "ne_50m_graticules_5"}
       },
       "mark": {
@@ -47,7 +47,7 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Final/refs/heads/main/data/malaysia.json",
+        "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Homework-Week10/refs/heads/main/data/malaysia.json",
         "format": {"type": "topojson", "feature": "ne_50m_admin_0_countries"}
       },
       "transform": [
@@ -66,7 +66,7 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Final/refs/heads/main/data/malaysia.json",
+        "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Homework-Week10/refs/heads/main/data/malaysia.json",
         "format": {"type": "topojson", "feature": "geoBoundaries-MYS-ADM1_simplified"}
       },
       "transform": [
@@ -85,14 +85,14 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Final/refs/heads/main/data/gdp_per_capita_malaysia_states.csv"
+        "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Homework-Week10/refs/heads/main/data/gdp_per_capita_malaysia_states.csv"
       },
       "transform": [
         {
           "lookup": "state",
           "from": {
             "data": {
-              "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Final/refs/heads/main/data/malaysia.json",
+              "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Homework-Week10/refs/heads/main/data/malaysia.json",
               "format": {"type": "topojson", "feature": "geoBoundaries-MYS-ADM1_simplified"}
             },
             "key": "properties.shapeName"
@@ -149,7 +149,7 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Final/refs/heads/main/data/annotations.csv"
+        "url": "https://raw.githubusercontent.com/NewBBBBBB/FIT3179-Homework-Week10/refs/heads/main/data/annotations.csv"
       },
       "layer": [
         {
